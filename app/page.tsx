@@ -325,7 +325,7 @@ export default function ZzwarakApp() {
               </div>
               <textarea
                 value={dumpText} onChange={e => setDumpText(e.target.value)}
-                placeholder={`기말 보고서 서론 쓰기\n김대리 메일 회신\n쿠팡 휴지 주문\n스페인어 공부 시작해야 하는데...`}
+                placeholder={`기말 보고서 서론 쓰기\n김대리 메일 회신\n쿠팡 휴지 주문\n스페인어 공부 시작해야 하는데...\n아 요즘 뭘 해도 집중이 안 됨\n주말에 놀고 싶은데 할 게 너무 많아`}
                 className="w-full h-64 text-[15px] text-zinc-800 placeholder-zinc-300 bg-zinc-50 rounded-xl border border-zinc-200 px-5 py-4 outline-none resize-none leading-relaxed focus:border-zinc-400 focus:bg-white transition-all"
                 autoFocus
               />
